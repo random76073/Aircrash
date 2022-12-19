@@ -1,0 +1,27 @@
+[
+{
+  "directory": "I:/RareMetalSpace/Aircrash/build",
+  "command": "C:/MinGW/bin/g++.exe -DGLC_EXPORTS @CMakeFiles/GLC.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/GLC.dir/dll/GLC/GLC.cpp.obj -c I:/RareMetalSpace/Aircrash/dll/GLC/GLC.cpp",
+  "file": "I:/RareMetalSpace/Aircrash/dll/GLC/GLC.cpp"
+},
+{
+  "directory": "I:/RareMetalSpace/Aircrash/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/Aircrash.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/Aircrash.dir/main.cpp.obj -c I:/RareMetalSpace/Aircrash/main.cpp",
+  "file": "I:/RareMetalSpace/Aircrash/main.cpp"
+},
+{
+  "directory": "I:/RareMetalSpace/Aircrash/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/Aircrash.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/Aircrash.dir/src/glad.cpp.obj -c I:/RareMetalSpace/Aircrash/src/glad.cpp",
+  "file": "I:/RareMetalSpace/Aircrash/src/glad.cpp"
+},
+{
+  "directory": "I:/RareMetalSpace/Aircrash/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/Aircrash.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/Aircrash.dir/src/shader.cpp.obj -c I:/RareMetalSpace/Aircrash/src/shader.cpp",
+  "file": "I:/RareMetalSpace/Aircrash/src/shader.cpp"
+},
+{
+  "directory": "I:/RareMetalSpace/Aircrash/build",
+  "command": "C:/MinGW/bin/g++.exe  @CMakeFiles/Aircrash.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/Aircrash.dir/src/stb_image.cpp.obj -c I:/RareMetalSpace/Aircrash/src/stb_image.cpp",
+  "file": "I:/RareMetalSpace/Aircrash/src/stb_image.cpp"
+}
+]
