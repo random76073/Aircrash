@@ -7,7 +7,7 @@ shader::shader(const char *code, int type) {
     glShaderSource(this -> id, 1, &code, nullptr);
     glCompileShader(this -> id);
 }
-
+shader::shader() {id = 0;}
 shader::~shader() {
     glDeleteShader(this -> id);
 }
@@ -18,7 +18,7 @@ void shader::getinfo() const {
     glGetShaderiv(this -> id, GL_COMPILE_STATUS, &success);
     if (!success){
         glGetShaderInfoLog(this -> id, 512, nullptr, infoLog);
-        std::cout << "ERROR::" << ((this -> type == 35632) ? "FRAGMENT_SHADER" : "VERTEX_SHADER") << std::endl << infoLog;
+        std::cout << "ERROR::" << ((this -> type == GL_FRAGMENT_SHADER) ? "FRAGMENT_SHADER" : ((this -> type == GL_VERTEX_SHADER) ? "VERTEX_SHADER" : "GEOMETRY_SHADER")) << std::endl << infoLog;
     }
 }
 void shader::set(const char *name, int program, int value) {

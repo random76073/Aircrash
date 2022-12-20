@@ -39,12 +39,6 @@
 				"parent" : 0
 			},
 			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 16,
-				"parent" : 0
-			},
-			{
 				"command" : 2,
 				"file" : 0,
 				"line" : 12,
@@ -67,7 +61,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"path" : "I:/RareMetalSpace/Aircrash/include"
 				}
 			],
@@ -85,15 +79,10 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4,
+				5
 			]
-		}
-	],
-	"dependencies" : 
-	[
-		{
-			"backtrace" : 3,
-			"id" : "GLC::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Aircrash::@6890427a1f51a3e7e1df",
@@ -112,11 +101,6 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "C:/MinGW/lib/libglfw3.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "libGLC.dll.a",
 				"role" : "libraries"
 			},
 			{
@@ -142,7 +126,9 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -170,6 +156,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/stb_image.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/texture.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/tools.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

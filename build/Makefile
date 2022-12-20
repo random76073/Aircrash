@@ -117,19 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named GLC
-
-# Build rule for target.
-GLC: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GLC
-.PHONY : GLC
-
-# fast build rule for target.
-GLC/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLC.dir/build.make CMakeFiles/GLC.dir/build
-.PHONY : GLC/fast
-
-#=============================================================================
 # Target rules for targets named Aircrash
 
 # Build rule for target.
@@ -141,30 +128,6 @@ Aircrash: cmake_check_build_system
 Aircrash/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aircrash.dir/build.make CMakeFiles/Aircrash.dir/build
 .PHONY : Aircrash/fast
-
-dll/GLC/GLC.obj: dll/GLC/GLC.cpp.obj
-.PHONY : dll/GLC/GLC.obj
-
-# target to build an object file
-dll/GLC/GLC.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLC.dir/build.make CMakeFiles/GLC.dir/dll/GLC/GLC.cpp.obj
-.PHONY : dll/GLC/GLC.cpp.obj
-
-dll/GLC/GLC.i: dll/GLC/GLC.cpp.i
-.PHONY : dll/GLC/GLC.i
-
-# target to preprocess a source file
-dll/GLC/GLC.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLC.dir/build.make CMakeFiles/GLC.dir/dll/GLC/GLC.cpp.i
-.PHONY : dll/GLC/GLC.cpp.i
-
-dll/GLC/GLC.s: dll/GLC/GLC.cpp.s
-.PHONY : dll/GLC/GLC.s
-
-# target to generate assembly for a file
-dll/GLC/GLC.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GLC.dir/build.make CMakeFiles/GLC.dir/dll/GLC/GLC.cpp.s
-.PHONY : dll/GLC/GLC.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -262,6 +225,54 @@ src/stb_image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aircrash.dir/build.make CMakeFiles/Aircrash.dir/src/stb_image.cpp.s
 .PHONY : src/stb_image.cpp.s
 
+src/texture.obj: src/texture.cpp.obj
+.PHONY : src/texture.obj
+
+# target to build an object file
+src/texture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aircrash.dir/build.make CMakeFiles/Aircrash.dir/src/texture.cpp.obj
+.PHONY : src/texture.cpp.obj
+
+src/texture.i: src/texture.cpp.i
+.PHONY : src/texture.i
+
+# target to preprocess a source file
+src/texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aircrash.dir/build.make CMakeFiles/Aircrash.dir/src/texture.cpp.i
+.PHONY : src/texture.cpp.i
+
+src/texture.s: src/texture.cpp.s
+.PHONY : src/texture.s
+
+# target to generate assembly for a file
+src/texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aircrash.dir/build.make CMakeFiles/Aircrash.dir/src/texture.cpp.s
+.PHONY : src/texture.cpp.s
+
+src/tools.obj: src/tools.cpp.obj
+.PHONY : src/tools.obj
+
+# target to build an object file
+src/tools.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aircrash.dir/build.make CMakeFiles/Aircrash.dir/src/tools.cpp.obj
+.PHONY : src/tools.cpp.obj
+
+src/tools.i: src/tools.cpp.i
+.PHONY : src/tools.i
+
+# target to preprocess a source file
+src/tools.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aircrash.dir/build.make CMakeFiles/Aircrash.dir/src/tools.cpp.i
+.PHONY : src/tools.cpp.i
+
+src/tools.s: src/tools.cpp.s
+.PHONY : src/tools.s
+
+# target to generate assembly for a file
+src/tools.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Aircrash.dir/build.make CMakeFiles/Aircrash.dir/src/tools.cpp.s
+.PHONY : src/tools.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -271,10 +282,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Aircrash"
-	@echo "... GLC"
-	@echo "... dll/GLC/GLC.obj"
-	@echo "... dll/GLC/GLC.i"
-	@echo "... dll/GLC/GLC.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -287,6 +294,12 @@ help:
 	@echo "... src/stb_image.obj"
 	@echo "... src/stb_image.i"
 	@echo "... src/stb_image.s"
+	@echo "... src/texture.obj"
+	@echo "... src/texture.i"
+	@echo "... src/texture.s"
+	@echo "... src/tools.obj"
+	@echo "... src/tools.i"
+	@echo "... src/tools.s"
 .PHONY : help
 
 

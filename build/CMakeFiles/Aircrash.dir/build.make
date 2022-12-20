@@ -129,12 +129,44 @@ CMakeFiles/Aircrash.dir/src/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Aircrash.dir/src/stb_image.cpp.s"
 	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:/RareMetalSpace/Aircrash/src/stb_image.cpp -o CMakeFiles/Aircrash.dir/src/stb_image.cpp.s
 
+CMakeFiles/Aircrash.dir/src/texture.cpp.obj: CMakeFiles/Aircrash.dir/flags.make
+CMakeFiles/Aircrash.dir/src/texture.cpp.obj: CMakeFiles/Aircrash.dir/includes_CXX.rsp
+CMakeFiles/Aircrash.dir/src/texture.cpp.obj: I:/RareMetalSpace/Aircrash/src/texture.cpp
+CMakeFiles/Aircrash.dir/src/texture.cpp.obj: CMakeFiles/Aircrash.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:/RareMetalSpace/Aircrash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Aircrash.dir/src/texture.cpp.obj"
+	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aircrash.dir/src/texture.cpp.obj -MF CMakeFiles/Aircrash.dir/src/texture.cpp.obj.d -o CMakeFiles/Aircrash.dir/src/texture.cpp.obj -c I:/RareMetalSpace/Aircrash/src/texture.cpp
+
+CMakeFiles/Aircrash.dir/src/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Aircrash.dir/src/texture.cpp.i"
+	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:/RareMetalSpace/Aircrash/src/texture.cpp > CMakeFiles/Aircrash.dir/src/texture.cpp.i
+
+CMakeFiles/Aircrash.dir/src/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Aircrash.dir/src/texture.cpp.s"
+	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:/RareMetalSpace/Aircrash/src/texture.cpp -o CMakeFiles/Aircrash.dir/src/texture.cpp.s
+
+CMakeFiles/Aircrash.dir/src/tools.cpp.obj: CMakeFiles/Aircrash.dir/flags.make
+CMakeFiles/Aircrash.dir/src/tools.cpp.obj: CMakeFiles/Aircrash.dir/includes_CXX.rsp
+CMakeFiles/Aircrash.dir/src/tools.cpp.obj: I:/RareMetalSpace/Aircrash/src/tools.cpp
+CMakeFiles/Aircrash.dir/src/tools.cpp.obj: CMakeFiles/Aircrash.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:/RareMetalSpace/Aircrash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Aircrash.dir/src/tools.cpp.obj"
+	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aircrash.dir/src/tools.cpp.obj -MF CMakeFiles/Aircrash.dir/src/tools.cpp.obj.d -o CMakeFiles/Aircrash.dir/src/tools.cpp.obj -c I:/RareMetalSpace/Aircrash/src/tools.cpp
+
+CMakeFiles/Aircrash.dir/src/tools.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Aircrash.dir/src/tools.cpp.i"
+	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:/RareMetalSpace/Aircrash/src/tools.cpp > CMakeFiles/Aircrash.dir/src/tools.cpp.i
+
+CMakeFiles/Aircrash.dir/src/tools.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Aircrash.dir/src/tools.cpp.s"
+	C:/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:/RareMetalSpace/Aircrash/src/tools.cpp -o CMakeFiles/Aircrash.dir/src/tools.cpp.s
+
 # Object files for target Aircrash
 Aircrash_OBJECTS = \
 "CMakeFiles/Aircrash.dir/main.cpp.obj" \
 "CMakeFiles/Aircrash.dir/src/glad.cpp.obj" \
 "CMakeFiles/Aircrash.dir/src/shader.cpp.obj" \
-"CMakeFiles/Aircrash.dir/src/stb_image.cpp.obj"
+"CMakeFiles/Aircrash.dir/src/stb_image.cpp.obj" \
+"CMakeFiles/Aircrash.dir/src/texture.cpp.obj" \
+"CMakeFiles/Aircrash.dir/src/tools.cpp.obj"
 
 # External object files for target Aircrash
 Aircrash_EXTERNAL_OBJECTS =
@@ -143,12 +175,13 @@ Aircrash.exe: CMakeFiles/Aircrash.dir/main.cpp.obj
 Aircrash.exe: CMakeFiles/Aircrash.dir/src/glad.cpp.obj
 Aircrash.exe: CMakeFiles/Aircrash.dir/src/shader.cpp.obj
 Aircrash.exe: CMakeFiles/Aircrash.dir/src/stb_image.cpp.obj
+Aircrash.exe: CMakeFiles/Aircrash.dir/src/texture.cpp.obj
+Aircrash.exe: CMakeFiles/Aircrash.dir/src/tools.cpp.obj
 Aircrash.exe: CMakeFiles/Aircrash.dir/build.make
 Aircrash.exe: C:/MinGW/lib/libglfw3.a
-Aircrash.exe: libGLC.dll.a
 Aircrash.exe: CMakeFiles/Aircrash.dir/linkLibs.rsp
 Aircrash.exe: CMakeFiles/Aircrash.dir/objects1
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=I:/RareMetalSpace/Aircrash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Aircrash.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=I:/RareMetalSpace/Aircrash/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Aircrash.exe"
 	I:/RareMetalSpace/App/CMake/bin/cmake.exe -E rm -f CMakeFiles/Aircrash.dir/objects.a
 	C:/MinGW/bin/ar.exe qc CMakeFiles/Aircrash.dir/objects.a @CMakeFiles/Aircrash.dir/objects1
 	C:/MinGW/bin/g++.exe -g -static -Wl,--whole-archive CMakeFiles/Aircrash.dir/objects.a -Wl,--no-whole-archive -o Aircrash.exe -Wl,--out-implib,libAircrash.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/Aircrash.dir/linkLibs.rsp

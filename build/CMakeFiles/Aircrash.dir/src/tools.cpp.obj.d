@@ -1,4 +1,5 @@
-CMakeFiles/Aircrash.dir/main.cpp.obj: I:/RareMetalSpace/Aircrash/main.cpp \
+CMakeFiles/Aircrash.dir/src/tools.cpp.obj: \
+ I:/RareMetalSpace/Aircrash/src/tools.cpp \
  I:/RareMetalSpace/Aircrash/include/tools.h \
  I:/RareMetalSpace/Aircrash/include/glad/glad.h \
  I:/RareMetalSpace/Aircrash/include/KHR/khrplatform.h \
@@ -279,6 +280,4 @@ CMakeFiles/Aircrash.dir/main.cpp.obj: I:/RareMetalSpace/Aircrash/main.cpp \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\cstring \
  I:/RareMetalSpace/Aircrash/include/GLM/gtc/type_ptr.inl \
  I:/RareMetalSpace/Aircrash/include/stb_image.h c:\mingw\include\stdio.h \
- c:\mingw\include\sys/types.h I:/RareMetalSpace/Aircrash/include/shader.h \
- I:/RareMetalSpace/Aircrash/include/sprite.h \
- I:/RareMetalSpace/Aircrash/include/texture.h
+ c:\mingw\include\sys/types.h

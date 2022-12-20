@@ -12,11 +12,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "I:/RareMetalSpace/Aircrash/src/glad.cpp" "CMakeFiles/Aircrash.dir/src/glad.cpp.obj" "gcc" "CMakeFiles/Aircrash.dir/src/glad.cpp.obj.d"
   "I:/RareMetalSpace/Aircrash/src/shader.cpp" "CMakeFiles/Aircrash.dir/src/shader.cpp.obj" "gcc" "CMakeFiles/Aircrash.dir/src/shader.cpp.obj.d"
   "I:/RareMetalSpace/Aircrash/src/stb_image.cpp" "CMakeFiles/Aircrash.dir/src/stb_image.cpp.obj" "gcc" "CMakeFiles/Aircrash.dir/src/stb_image.cpp.obj.d"
+  "I:/RareMetalSpace/Aircrash/src/texture.cpp" "CMakeFiles/Aircrash.dir/src/texture.cpp.obj" "gcc" "CMakeFiles/Aircrash.dir/src/texture.cpp.obj.d"
+  "I:/RareMetalSpace/Aircrash/src/tools.cpp" "CMakeFiles/Aircrash.dir/src/tools.cpp.obj" "gcc" "CMakeFiles/Aircrash.dir/src/tools.cpp.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "I:/RareMetalSpace/Aircrash/build/CMakeFiles/GLC.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

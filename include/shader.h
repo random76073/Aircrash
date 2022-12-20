@@ -8,6 +8,7 @@ class shader {
         int type;
         char *code;
         shader(const char *code, int type);
+        shader();
         ~shader();
         void getinfo() const;
         

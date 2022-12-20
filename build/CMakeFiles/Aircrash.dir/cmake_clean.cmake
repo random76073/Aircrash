@@ -10,6 +10,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/Aircrash.dir/src/shader.cpp.obj.d"
   "CMakeFiles/Aircrash.dir/src/stb_image.cpp.obj"
   "CMakeFiles/Aircrash.dir/src/stb_image.cpp.obj.d"
+  "CMakeFiles/Aircrash.dir/src/texture.cpp.obj"
+  "CMakeFiles/Aircrash.dir/src/texture.cpp.obj.d"
+  "CMakeFiles/Aircrash.dir/src/tools.cpp.obj"
+  "CMakeFiles/Aircrash.dir/src/tools.cpp.obj.d"
   "libAircrash.dll.a"
 )
 

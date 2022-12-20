@@ -15,8 +15,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -31,8 +30,7 @@
 					"name" : "Aircrash",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -41,15 +39,8 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Aircrash::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Aircrash-Debug-2add24d0a96b919af70d.json",
+					"jsonFile" : "target-Aircrash-Debug-3a9eb74ecaf71607dcb9.json",
 					"name" : "Aircrash",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "GLC::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-GLC-Debug-c511756371352cf3af12.json",
-					"name" : "GLC",
 					"projectIndex" : 0
 				}
 			]
