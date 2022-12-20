@@ -353,4 +353,20 @@ CMakeFiles/Aircrash.dir/main.cpp.obj: I:/RareMetalSpace/Aircrash/main.cpp \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\basic_ios.tcc \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\ostream.tcc \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\istream \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\istream.tcc
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\istream.tcc \
+ I:/RareMetalSpace/Aircrash/include/ft2build.h \
+ I:/RareMetalSpace/Aircrash/include/freetype/config/ftheader.h \
+ I:/RareMetalSpace/Aircrash/include/freetype/freetype.h \
+ I:/RareMetalSpace/Aircrash/include/freetype/config/ftconfig.h \
+ I:/RareMetalSpace/Aircrash/include/freetype/config/ftoption.h \
+ I:/RareMetalSpace/Aircrash/include/freetype/config/ftstdlib.h \
+ c:\mingw\include\setjmp.h \
+ I:/RareMetalSpace/Aircrash/include/freetype/config/integer-types.h \
+ I:/RareMetalSpace/Aircrash/include/freetype/config/public-macros.h \
+ I:/RareMetalSpace/Aircrash/include/freetype/config/mac-support.h \
+ I:/RareMetalSpace/Aircrash/include/freetype/fttypes.h \
+ I:/RareMetalSpace/Aircrash/include/freetype/ftsystem.h \
+ I:/RareMetalSpace/Aircrash/include/freetype/ftimage.h \
+ I:/RareMetalSpace/Aircrash/include/freetype/fterrors.h \
+ I:/RareMetalSpace/Aircrash/include/freetype/ftmoderr.h \
+ I:/RareMetalSpace/Aircrash/include/freetype/fterrdef.h
